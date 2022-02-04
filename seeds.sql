@@ -14,7 +14,7 @@ VALUES
 ('Software Engineer', 67000, 2),
 ('Web Developer', 30000, 3),
 ('Manager', 15000, 4),
-('Lead Engineer', 20000, 5),
+('Lead Engineer', 10000, 5),
 ('Sales Rep', 40000, 6);
 
 INSERT INTO employee (first_name, last_name, role_id, manager_id)
