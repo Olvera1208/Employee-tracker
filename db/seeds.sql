@@ -1,25 +1,23 @@
 
-INSERT INTO department (name)
+INSERT INTO department (id,name)
 VALUES 
 (1,'Systems and Technology'),
-(2,'Finance'),
+(2,'gamer specialist'),
 (3,'Legal'),
-(4,'Engineering'),
-(5,'Sales');
+(4,'Engineering');
 
 INSERT INTO role (title, salary, department_id)
 VALUES
 ('Legal Team Lead', 78000, 1),
 ('Software Engineer', 67000, 2),
 ('Web Developer', 30000, 3),
-('Sales Rep', 40000, 4);
-('Lead Engineer', 10000, 5),
+('games Rep', 40000, 4);
 
 
 INSERT INTO employee (first_name, last_name, role_id, manager_id)
 VALUES 
-('Isiah', 'Olvera', 1, 980),
-('Peter', 'Parker', 2, 760),
-('Tony', 'Stark', 3, 445),
-('Steve', 'Rogers', 4, 157),
-('Peter', 'Quill', 5, 853),
+('Isiah', 'Olvera', 1, null),
+('Peter', 'Parker', 2, 1),
+('Tony', 'Stark', 3, null),
+('Steve', 'Rogers', 4, 1);
+
